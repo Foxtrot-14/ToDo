@@ -1,0 +1,22 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding: 20px 50px 50px 50px;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  background-color: gray;
+}
+.head{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px 0px 35px 0px;
+}
+.container-home {
+  align-self: flex-start;
+  justify-self: flex-start;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+}

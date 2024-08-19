@@ -1,0 +1,58 @@
+.todo-body {
+  padding: 25px;
+  border-radius: 25px;
+  min-height: 230px;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.todo-body:hover {
+  background-color: #fae903;
+  cursor: pointer;
+}
+.title {
+  align-self: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  /* text-decoration: line-through; */
+}
+.desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.date {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.status {
+  font-weight: bold;
+}
+.buttons {
+  align-self: center;
+  display: flex;
+  gap: 10px;
+}
+.button {
+  height: auto;
+  width: auto;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid black;
+}
+.button:hover {
+  cursor: pointer;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
