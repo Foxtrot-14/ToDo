@@ -1,0 +1,65 @@
+.amain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #747171;
+}
+.quick {
+  font-family: "Audiowide", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.acen {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #747171;
+  border-radius: 15px;
+}
+.aside {
+  height: 300px;
+  left: 300px;
+}
+.lform {
+  display: flex;
+  flex-direction: column;
+}
+.ainp {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  height: 35px;
+  padding: 5px 5px;
+  width: 300px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+.lo {
+  margin: 5px;
+}
+.log {
+  margin: 15px 0px 10px 0px;
+  width: 90px;
+  height: 40px;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #fae903;
+  font-size: 18px;
+}
+.log:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #000000;
+}
+.error-message {
+  margin-top: 35px;
+  font-weight: bold;
+  align-self: center;
+  color: red;
+}

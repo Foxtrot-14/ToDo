@@ -1,8 +1,8 @@
-# ToDo
+# DailyDocket
 
 ## Overview
 
-ToDo is a full-stack web application designed to help users manage their tasks efficiently. Built with Django REST Framework for the backend and React for the frontend, this application provides a seamless experience for creating, listing, updating, and deleting tasks. It also includes basic user authentication for secure access.
+DailyDocket is a full-stack web application designed to help users manage their tasks efficiently. Built with Django REST Framework for the backend and React for the frontend, this application provides a seamless experience for creating, listing, updating, and deleting tasks. It also includes basic user authentication for secure access.
 
 ## Features
 
@@ -18,6 +18,7 @@ ToDo is a full-stack web application designed to help users manage their tasks e
 ### API Endpoints
 
 1. **Create a Task**
+
    - **Endpoint:** `/tasks/`
    - **Method:** POST
    - **Parameters:**
@@ -26,6 +27,7 @@ ToDo is a full-stack web application designed to help users manage their tasks e
      - `due_date` (optional): The due date of the task in `YYYY-MM-DD` format.
 
 2. **List Tasks**
+
    - **Endpoint:** `/tasks/`
    - **Method:** GET
    - **Optional Parameters:**
@@ -33,6 +35,7 @@ ToDo is a full-stack web application designed to help users manage their tasks e
      - `due_date`: Filter tasks by due date in `YYYY-MM-DD` format.
 
 3. **Update a Task**
+
    - **Endpoint:** `/tasks/<task_id>/`
    - **Method:** PUT
    - **Parameters:**
@@ -72,6 +75,7 @@ The frontend uses React's state management to handle and update the list of task
 ### API Integration
 
 The frontend communicates with the backend through API calls to perform CRUD operations:
+
 - **Fetch Tasks:** Retrieve the list of tasks from the backend.
 - **Create Task:** Send a request to add a new task.
 - **Update Task:** Send a request to update an existing task.
@@ -80,16 +84,20 @@ The frontend communicates with the backend through API calls to perform CRUD ope
 ## Installation and Setup
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/Foxtrot-14/ToDo.git
    cd ToDo
    ```
 
 2. **Backend Setup**
+
    - Navigate to the backend directory.
+
    ```bash
    cd todobackend
    ```
+
    - Create a virtual environment and install dependencies:
      ```bash
      python3 -m venv env

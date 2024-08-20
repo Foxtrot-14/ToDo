@@ -4,6 +4,8 @@
   min-height: 230px;
   width: 620px;
   display: flex;
+  position: relative;
+  box-shadow: 1px 1px 1px 1px #000000;
   flex-direction: column;
   background-color: white;
 }
@@ -16,7 +18,10 @@
   margin-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
-  /* text-decoration: line-through; */
+}
+.completed {
+  background-color: #fae903;
+  text-decoration: line-through;
 }
 .desc {
   font-size: 20px;
@@ -34,6 +39,8 @@
   align-self: center;
   display: flex;
   gap: 10px;
+  position: absolute;
+  bottom: 25px;
 }
 .button {
   height: auto;
@@ -46,6 +53,7 @@
 }
 .button:hover {
   cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #000000;
 }
 .red {
   background-color: red;
@@ -55,4 +63,22 @@
 }
 .green {
   background-color: green;
+}
+.edit-form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.edit-form input,
+textarea {
+  height: auto;
+  font-size: 17px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #cfcfcf;
+  padding: 5px;
+}
+.edit-form button {
+  width: 70px;
 }
